@@ -17,9 +17,9 @@ function drawCardWithName(nameText) {
   ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
 
   ctx.font = "bold 48px Georgia";
-  ctx.fillStyle = "#002B5B";
+  ctx.fillStyle = "#c2a606ff";
   ctx.textAlign = "center";
-  ctx.fillText(nameText, canvas.width / 2, 100);
+  ctx.fillText(nameText, canvas.width / 2, 70);
 }
 
 const form = document.getElementById("rsvp-form");

@@ -19,7 +19,7 @@ function drawCardWithName(nameText) {
   ctx.font = "48px Pristina";
   ctx.fillStyle = "#c2a606ff";
   ctx.textAlign = "center";
-  ctx.fillText(nameText, canvas.width / 2, 70);
+  ctx.fillText(nameText, canvas.width / 2, 80);
 }
 
 const form = document.getElementById("rsvp-form");
@@ -75,3 +75,4 @@ form.addEventListener("submit", function (e) {
     });
 
 });
+

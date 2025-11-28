@@ -16,7 +16,7 @@ function drawCardWithName(nameText) {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
 
-  ctx.font = "bold 48px Georgia";
+  ctx.font = "48px Pristina";
   ctx.fillStyle = "#c2a606ff";
   ctx.textAlign = "center";
   ctx.fillText(nameText, canvas.width / 2, 70);
@@ -73,4 +73,5 @@ form.addEventListener("submit", function (e) {
     .finally(function () {
       submitBtn.disabled = false;
     });
+
 });
